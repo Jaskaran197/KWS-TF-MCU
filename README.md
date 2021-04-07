@@ -54,3 +54,8 @@ python label_wav.py --wav <audio file> --graph Pretrained_models/DNN/DNN_S.pb
 
 A quick guide on quantizing the KWS neural network models is [here](Deployment/Quant_guide.md). 
 The example code for running a DNN model on a Cortex-M development board is also provided [here](Deployment). 
+
+
+## Running inference locally 
+
+inference.py contains code to run the trained model locally to evaluate and sanity test. PyAudio is used to take audio from mic connected to system and feed to tf graph. Results are printed on  terminal.
