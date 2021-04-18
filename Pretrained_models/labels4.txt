@@ -1,0 +1,6 @@
+_silence_
+_unknown_
+up
+down
+left
+right
